@@ -312,7 +312,7 @@ module.exports = function () {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".lift_widget {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 15px;\n  min-height: 60px;\n  flex-grow: 0;\n  color: #424242; }\n  .lift_widget .uxp-widget-title-bar {\n    padding: 2px;\n    min-height: 20px;\n    width: 100%; }\n  .lift_widget .car_widget-header {\n    display: inline-flex;\n    width: 100%;\n    padding: 0px 2em;\n    position: absolute;\n    top: 5%; }\n  .lift_widget .uxp-form-group.showcase-input {\n    width: 100% !important;\n    padding: 0; }\n    .lift_widget .uxp-form-group.showcase-input .uxp-form-select {\n      position: relative; }\n      .lift_widget .uxp-form-group.showcase-input .uxp-form-select .uxp-select-placeholder {\n        background-color: #e1e1e161;\n        color: #424242;\n        padding: 10px 35px 10px 20px; }\n  .lift_widget label {\n    color: #424242; }\n  .lift_widget .lift_widget_lft {\n    display: inline-block;\n    width: 50%; }\n    .lift_widget .lift_widget_lft .uxp-form-select {\n      min-width: 100%; }\n    .lift_widget .lift_widget_lft .uti-sel-boxes {\n      position: absolute;\n      left: 2em;\n      top: 2em; }\n  .lift_widget .lift_widget_rht {\n    width: 50%;\n    float: right; }\n    .lift_widget .lift_widget_rht .uxp-form-select {\n      min-width: 100%; }\n    .lift_widget .lift_widget_rht .block_building {\n      float: right;\n      margin-top: 0.7em;\n      font-size: 0.8em;\n      margin-right: 25px; }\n    .lift_widget .lift_widget_rht .uti-sel-boxes {\n      float: right;\n      margin-bottom: 1em; }\n  .lift_widget.lift_widget-details {\n    display: inline-block;\n    padding: 0; }\n    .lift_widget.lift_widget-details .lift_details {\n      display: inline-block;\n      width: 100%;\n      height: 96%; }\n      .lift_widget.lift_widget-details .lift_details .data-grid {\n        background-color: transparent; }\n        .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column {\n          border: 0px solid #77777763;\n          height: 50%; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(odd) {\n            border-right: 1px solid #77777763; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:first-child {\n            border-bottom: 1px solid #77777763; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:first-child .item-card .item-card-image-container .profile-image-container {\n              width: 10em;\n              height: 4em; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(2) {\n            border-bottom: 1px solid #77777763; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(2) .item-card .item-card-image-container .profile-image-container {\n              width: 4em;\n              height: 4em; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(3) .item-card .item-card-image-container .profile-image-container {\n            width: 8em;\n            height: 4em; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(4) .item-card .item-card-image-container .profile-image-container {\n            width: 7.5em;\n            height: 5em; }\n        .lift_widget.lift_widget-details .lift_details .data-grid .item-card {\n          background-color: transparent;\n          display: inline-block; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container {\n            position: inherit;\n            transform: none;\n            left: 0;\n            top: 0; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container {\n              background-color: transparent !important;\n              width: 4em;\n              height: 4em;\n              border-radius: 0; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content {\n            margin-left: 0;\n            padding: 5px 0; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content .title {\n              padding: 7px 0 5px 0; }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content .title h3 {\n                margin: 0;\n                padding: 0;\n                font-weight: 500;\n                font-size: 1.2em;\n                color: #424242d1; }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content .title .sub-title {\n                color: #424242d1; }\n", ""]);
+exports.push([module.i, ".lift_widget {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 15px;\n  min-height: 60px;\n  flex-grow: 0;\n  color: #424242; }\n  .lift_widget .uxp-widget-title-bar {\n    padding: 2px;\n    min-height: 20px;\n    width: 100%; }\n  .lift_widget .car_widget-header {\n    display: inline-flex;\n    width: 100%;\n    padding: 0px 2em;\n    position: absolute;\n    top: 5%; }\n  .lift_widget .uxp-form-group.showcase-input {\n    width: 100% !important;\n    padding: 0; }\n    .lift_widget .uxp-form-group.showcase-input .uxp-form-select {\n      position: relative; }\n      .lift_widget .uxp-form-group.showcase-input .uxp-form-select .uxp-select-placeholder {\n        background-color: #e1e1e161;\n        color: #424242;\n        padding: 10px 35px 10px 20px; }\n  .lift_widget label {\n    color: #424242; }\n  .lift_widget .lift_widget_lft {\n    display: inline-block;\n    width: 50%; }\n    .lift_widget .lift_widget_lft .uxp-form-select {\n      min-width: 100%; }\n    .lift_widget .lift_widget_lft .uti-sel-boxes {\n      position: absolute;\n      left: 2em;\n      top: 2em; }\n  .lift_widget .lift_widget_rht {\n    width: 50%;\n    float: right; }\n    .lift_widget .lift_widget_rht .uxp-form-select {\n      min-width: 100%; }\n    .lift_widget .lift_widget_rht .block_building {\n      float: right;\n      margin-top: 0.7em;\n      font-size: 0.8em;\n      margin-right: 25px; }\n    .lift_widget .lift_widget_rht .uti-sel-boxes {\n      float: right;\n      margin-bottom: 1em; }\n  .lift_widget.lift_widget-details {\n    display: inline-block;\n    padding: 0; }\n    .lift_widget.lift_widget-details .lift_details {\n      display: inline-block;\n      width: 100%;\n      height: 100%;\n      position: absolute;\n      left: 0;\n      top: 0; }\n      .lift_widget.lift_widget-details .lift_details .data-grid {\n        background-color: transparent;\n        margin: 0; }\n        .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column {\n          border: 0px solid #77777763;\n          height: 50%;\n          display: inline-block;\n          width: 50%; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(odd) {\n            border-right: 1px solid #77777763; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:first-child {\n            border-bottom: 1px solid #77777763; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .data-grid-column:nth-child(2) {\n            border-bottom: 1px solid #77777763; }\n        .lift_widget.lift_widget-details .lift_details .data-grid .item-card {\n          background-color: transparent;\n          display: inline-block;\n          padding: 25px 35px; }\n          .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container {\n            position: inherit;\n            transform: none;\n            left: 0;\n            top: 0; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container {\n              background-color: transparent !important;\n              width: 4em;\n              height: 4em;\n              border-radius: 0;\n              background-size: contain;\n              background-repeat: no-repeat;\n              background-position: center left;\n              margin-top: 2em; }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container:before {\n                position: absolute;\n                left: 0;\n                top: 0;\n                background-repeat: no-repeat;\n                background-position: 0 0;\n                content: ''; }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.lift-service {\n                width: 10em;\n                height: 6.6em;\n                margin-top: 22%; }\n                .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.lift-service:before {\n                  background-image: url(\"https://static.iviva.com/images/lift_widget/lift-service1.png\");\n                  width: 10em;\n                  height: 5em;\n                  background-size: contain;\n                  -webkit-animation: slidein 4s ease-in infinite;\n                  animation: slidein 4s ease-in infinite;\n                  transition: all 12s ease-in-out; }\n\n@keyframes slidein {\n  0% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/lift-service1.png\");\n    height: 5em; }\n  30% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/lift-service2.png\");\n    height: 6.6em; }\n  60% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/lift-service1.png\");\n    height: 5em; }\n  100% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/lift-service2.png\");\n    height: 6.6em; } }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.waiting-time {\n                width: 4em;\n                height: 4em;\n                margin-top: 22%;\n                position: relative; }\n                .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.waiting-time:before {\n                  background-image: url(https://static.iviva.com/images/lift_widget/waiting-time.png);\n                  width: 6em;\n                  height: 12em;\n                  background-size: contain;\n                  -webkit-animation: waiting-time 4s ease-in infinite;\n                  animation: waiting-time 4s ease-in infinite;\n                  transition: all 20s ease-in-out; }\n\n@keyframes waiting-time {\n  0% {\n    top: 0; }\n  50% {\n    top: -48px; }\n  100% {\n    top: -97px; } }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.popular-floor {\n                width: 8em;\n                height: 10em; }\n                .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.popular-floor:before {\n                  background-image: url(https://static.iviva.com/images/lift_widget/pop-floor-1.png);\n                  width: 8em;\n                  height: 10em;\n                  background-size: cover;\n                  -webkit-animation: pop-floor 4s ease-in infinite;\n                  animation: pop-floor 4s ease-in infinite;\n                  transition: all 12s ease-in-out; }\n\n@keyframes pop-floor {\n  0% {\n    left: 3em;\n    top: 0em;\n    background-size: contain;\n    transform: scale(1.8); }\n  50% {\n    left: 1.2em;\n    top: 0em;\n    background-size: contain;\n    transform: scale(1.4); }\n  75% {\n    left: 0;\n    top: 0;\n    transform: scale(1); }\n  100% {\n    left: 0;\n    top: 0;\n    transform: scale(1); } }\n              .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.run-hours {\n                width: 7.1em;\n                height: 8em; }\n                .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.run-hours:before {\n                  background-image: url(https://static.iviva.com/images/lift_widget/run-hours-1.png);\n                  width: 7.1em;\n                  height: 8em;\n                  background-size: cover;\n                  -webkit-animation: run-hour 4s ease-in infinite;\n                  animation: run-hour 4s ease-in infinite;\n                  transition: all 15s ease-in-out; }\n\n@keyframes run-hour {\n  0% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/run-hours-1.png\"); }\n  50% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/run-hours-2.png\"); }\n  100% {\n    background-image: url(\"https://static.iviva.com/images/lift_widget/run-hours-1.png\"); } }\n                .lift_widget.lift_widget-details .lift_details .data-grid .item-card .item-card-image-container .profile-image-container.run-hours:after {\n                  background-image: url(https://static.iviva.com/images/lift_widget/wheel.png);\n                  width: 1.9em;\n                  height: 1.9em;\n                  position: absolute;\n                  right: 0;\n                  top: 4px;\n                  background-size: cover;\n                  background-repeat: no-repeat;\n                  background-position: 0 0;\n                  content: '';\n                  -webkit-animation: run-hour-wheel 2s ease-in infinite;\n                  animation: run-hour-wheel 2s ease-in infinite;\n                  transition: all 10s ease-in-out; }\n\n@keyframes run-hour-wheel {\n  0% {\n    transform: rotate(50deg); }\n  50% {\n    transform: rotate(150deg); }\n  100% {\n    transform: rotate(250deg); } }\n          .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content {\n            margin-left: 0;\n            padding: 5px 0; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content h3.list_title {\n              padding: 7px 0 5px 0;\n              margin: 0;\n              font-weight: 500;\n              font-size: 1.6em;\n              color: #424242d1; }\n            .lift_widget.lift_widget-details .lift_details .data-grid .item-card .content p.list_subtitle {\n              color: #424242d1;\n              padding: 0;\n              margin: 5px 0 0 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -9607,9 +9607,9 @@ module.exports = /*#__PURE__*/function (_BaseClient) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080":
+/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:8081":
 /*!*********************************************************!*\
-  !*** (webpack)-dev-server/client?http://localhost:8080 ***!
+  !*** (webpack)-dev-server/client?http://localhost:8081 ***!
   \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9791,7 +9791,7 @@ var onSocketMessage = {
   }
 };
 socket(socketUrl, onSocketMessage);
-/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:8080"))
+/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:8081"))
 
 /***/ }),
 
@@ -10488,35 +10488,58 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const Lift_widgetWidget = (props) => {
     let [selected, setSelected] = React.useState("op-24");
-    const GridData = [
+    let elevatorData = [
         {
-            icon: "https://static.iviva.com/images/lift_widget/lift-service.svg",
-            name: "Udhaya Kumar",
-            title: React.createElement("h3", null, "90%"),
+            pict: React.createElement("span", { className: "profile-image-container lift-service" }),
+            //name: "Udhaya Kumar",
+            title: "90%",
             subTitle: "% of lifts in service"
         },
         {
-            icon: "https://static.iviva.com/images/lift_widget/waiting-time.svg",
-            name: "Udhaya Kumar",
-            title: React.createElement("h3", null, "00:32"),
+            pict: React.createElement("span", { className: "profile-image-container waiting-time" }),
+            title: "00:32",
             subTitle: " Average waiting time"
         },
         {
-            icon: "https://static.iviva.com/images/lift_widget/pop-floor.svg",
-            name: "Udhaya Kumar",
-            title: React.createElement("h3", null, "Floor 12"),
+            pict: React.createElement("span", { className: "profile-image-container popular-floor" }),
+            title: "Floor 12",
             subTitle: "Most popular floor"
         },
         {
-            icon: "https://static.iviva.com/images/lift_widget/run-hour.svg",
-            name: "Udhaya Kumar",
-            title: React.createElement("h3", null, "104"),
+            pict: React.createElement("span", { className: "profile-image-container run-hours" }),
+            title: "104",
             subTitle: "Lift run hours"
         }
     ];
-    const renderGridItem = (item, key) => {
-        return (React.createElement(components_1.ItemCard, { item: item, imageField: "icon", nameField: "name", titleField: "title", subTitleField: "subTitle" }));
-    };
+    // const renderGridItem = (item: any, key: number) => {
+    //     return (<ItemCard
+    //         item={item}
+    //         imageField="icon"
+    //         nameField="name"
+    //         titleField="title"
+    //         subTitleField="subTitle"
+    //     />)
+    // }
+    // const list = [
+    //     {
+    //       id: 'a',
+    //       firstname: 'Robin',
+    //       lastname: 'Wieruch',
+    //       year: 1988,
+    //     },
+    //     {
+    //       id: 'b',
+    //       firstname: 'Dave',
+    //       lastname: 'Davidds',
+    //       year: 1990,
+    //     },
+    //   ];
+    const ComplexList = () => (React.createElement("ul", { className: "data-grid" }, elevatorData.map(item => (React.createElement("li", { className: "data-grid-column", key: item.title },
+        React.createElement("div", { className: "item-card has-image" },
+            React.createElement("div", { className: "item-card-image-container" }, item.pict),
+            React.createElement("div", { className: "content" },
+                React.createElement("h3", { className: "list_title" }, item.title),
+                React.createElement("p", { className: "list_subtitle" }, item.subTitle))))))));
     return (React.createElement(components_1.WidgetWrapper, { className: "lift_widget lift_widget-details" },
         React.createElement(components_1.TitleBar, { title: "" }, "   "),
         React.createElement("div", { className: "lift_widget_lft" },
@@ -10553,7 +10576,7 @@ const Lift_widgetWidget = (props) => {
             React.createElement("div", { className: "block_building" },
                 React.createElement(components_1.Label, null, "LEVEL - 2, BUILDING 1"))),
         React.createElement("div", { className: "lift_details" },
-            React.createElement(components_1.DataGrid, { data: GridData, renderItem: renderGridItem, columns: 2 }))));
+            React.createElement(ComplexList, null))));
 };
 /**
  * Register as a Widget
@@ -10674,12 +10697,12 @@ exports.registerUI = registerUI;
 
 /***/ 0:
 /*!*******************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?http://localhost:8080 ./src/index.tsx ***!
+  !*** multi (webpack)-dev-server/client?http://localhost:8081 ./src/index.tsx ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Udhay Project files\Udhaya_project\lift-widget\node_modules\webpack-dev-server\client\index.js?http://localhost:8080 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
+__webpack_require__(/*! D:\Udhay Project files\Udhaya_project\elevator_widget\node_modules\webpack-dev-server\client\index.js?http://localhost:8081 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8081");
 module.exports = __webpack_require__(/*! ./src/index.tsx */"./src/index.tsx");
 
 

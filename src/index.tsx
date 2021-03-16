@@ -11,43 +11,74 @@ const Lift_widgetWidget: React.FunctionComponent<IWidgetProps> = (props) => {
 
     let [selected, setSelected] = React.useState<string | null>("op-24");
 
-    const GridData = [
+    let elevatorData = [
         {
-            icon: "https://static.iviva.com/images/lift_widget/lift-service.svg",
-            name: "Udhaya Kumar",
-            title: <h3>90%</h3>,  
+            pict: <span className="profile-image-container lift-service"></span>,
+            //name: "Udhaya Kumar",
+            title: "90%",  
             subTitle: "% of lifts in service"
         },
         {
-            icon: "https://static.iviva.com/images/lift_widget/waiting-time.svg",
-            name: "Udhaya Kumar",
-            title: <h3>00:32</h3>,  
+            pict:  <span className="profile-image-container waiting-time"></span>, 
+            title:  "00:32" ,  
             subTitle: " Average waiting time"
         },
         {
-            icon: "https://static.iviva.com/images/lift_widget/pop-floor.svg",
-            name: "Udhaya Kumar",
-            title: <h3>Floor 12</h3>,
+            pict:  <span className="profile-image-container popular-floor"></span>, 
+            title: "Floor 12",
             subTitle: "Most popular floor"  
         },
         {
-            icon: "https://static.iviva.com/images/lift_widget/run-hour.svg",
-            name: "Udhaya Kumar",
-            title: <h3>104</h3>,
+            pict:  <span className="profile-image-container run-hours"></span>, 
+            title: "104",
             subTitle: "Lift run hours"  
         }  
     ]  
 
-    const renderGridItem = (item: any, key: number) => {
-        return (<ItemCard
-            item={item}
-            imageField="icon"
-            nameField="name"
-            titleField="title"
-            subTitleField="subTitle"
+    // const renderGridItem = (item: any, key: number) => {
+    //     return (<ItemCard
+    //         item={item}
+    //         imageField="icon"
+    //         nameField="name"
+    //         titleField="title"
+    //         subTitleField="subTitle"
            
-        />)
-    }
+    //     />)
+    // }
+
+
+
+    // const list = [
+    //     {
+    //       id: 'a',
+    //       firstname: 'Robin',
+    //       lastname: 'Wieruch',
+    //       year: 1988,
+    //     },
+    //     {
+    //       id: 'b',
+    //       firstname: 'Dave',
+    //       lastname: 'Davidds',
+    //       year: 1990,
+    //     },
+    //   ];
+       
+      const ComplexList = () => (
+        <ul className="data-grid">
+          {elevatorData.map(item => (
+            <li className="data-grid-column" key={item.title}>
+                <div className="item-card has-image">
+                    <div className="item-card-image-container">{item.pict}</div> 
+                    <div className="content">
+                        <h3 className="list_title">{item.title}</h3>
+                        <p className="list_subtitle">{item.subTitle}</p>
+                    </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      );
+       
 
     return (
         <WidgetWrapper className="lift_widget lift_widget-details"> 
@@ -100,12 +131,10 @@ const Lift_widgetWidget: React.FunctionComponent<IWidgetProps> = (props) => {
                     </div>
                 </div>
 
-                <div className="lift_details" >
-                    <DataGrid
-                        data={GridData}
-                        renderItem={renderGridItem}
-                        columns={2} 
-                    />
+                <div className="lift_details" > 
+
+                    <ComplexList /> 
+
                 </div>
                 
             
