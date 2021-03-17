@@ -44,6 +44,9 @@
     .lift_widget_lft {
         display: inline-block;
         width: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
 
         .uxp-form-select {
             min-width: 100%;
@@ -60,6 +63,9 @@
         //display: inline-block;
         width: 50%;
         float: right;
+        position: relative;
+        z-index: 1;
+        top: 0;
 
         .uxp-form-select {
             min-width: 100%;
@@ -88,6 +94,7 @@
             position: absolute;
             left: 0;
             top: 0;
+            z-index: 0;
 
             .data-grid { 
                 background-color: transparent;
@@ -152,9 +159,9 @@
                                     height: 5em;
                                     background-size: contain;
 
-                                    -webkit-animation: slidein 4s ease-in infinite;
-                                    animation: slidein 4s ease-in infinite;
-                                    transition: all 12s ease-in-out;  
+                                    -webkit-animation: slidein 10s ease-in infinite;
+                                    animation: slidein 10s ease-in infinite;
+                                    transition: all 10s ease-in-out;  
                                 } 
                                   
                                   @keyframes slidein {
@@ -181,20 +188,27 @@
                             }
                             &.waiting-time{
                                
-                                width: 4em;
-                                height: 4em; 
+                                // width: 4em;
+                                // height: 4em;
+                                
+                                width: 5em;
+                                height: 6em;
+
                                 margin-top: 22%;  
                                 position: relative; 
                                 
                                 &:before{
                                     background-image: url(https://static.iviva.com/images/lift_widget/waiting-time.png);
-                                    width: 6em;
-                                    height: 12em; 
-                                     background-size: contain; 
+                                    // width: 6em;
+                                    // height: 12em; 
 
-                                    -webkit-animation: waiting-time 4s ease-in infinite;
-                                    animation: waiting-time 4s ease-in infinite;
-                                    transition: all 20s ease-in-out; 
+                                    width: 5em;
+                                    height: 18em;
+                                    background-size: cover; 
+
+                                    -webkit-animation: waiting-time 5s ease-in infinite;
+                                    animation: waiting-time 5s ease-in infinite;
+                                    transition: all 15s ease-in-out; 
 
                                 }
                                   
@@ -204,46 +218,53 @@
                                     }
                                   
                                     50% {
-                                        top: -48px;
+                                        top: -70px;
                                     }
                                   
-                                    100% {
-                                        top:-97px;
-                                    }
+                                   100% {
+                                        top:-145px;
+                                    } 
                                   } 
 
                             }
                             &.popular-floor{ 
 
+                                // width: 8em;
+                                // height: 10em;
+
                                 width: 8em;
-                                height: 10em;
+                                height: 8em;
 
                                 &:before{
                                     background-image: url(https://static.iviva.com/images/lift_widget/pop-floor-1.png); 
+                                    // width: 8em;
+                                    // height: 10em; 
                                     width: 8em;
-                                    height: 10em; 
-                                     background-size: cover; 
+                                    height: 8em;
+                                    background-size: 75% auto;
 
                                     -webkit-animation: pop-floor 4s ease-in infinite;
                                     animation: pop-floor 4s ease-in infinite;
                                     transition: all 12s ease-in-out; 
 
+                                    left: 3em;
+
                                 }
                                   
                                   @keyframes pop-floor {
                                     0% {  
-                                        left: 3em;
+                                        // left: 0em;
                                         top: 0em;
                                         background-size: contain;  
                                         transform: scale(1.8); 
                                     }
 
-                                    50% {  
-                                        left: 1.2em;
-                                        top: 0em;
-                                        background-size: contain;  
-                                        transform: scale(1.4); 
-                                    } 
+                                    // 50% {  
+                                    //     left: 1.2em;
+                                    //     top: 0em;
+                                    //     background-size: contain;  
+                                    //     transform: scale(1.4); 
+                                    // } 
                                     
                                     75% {  
                                         left: 0;
@@ -271,8 +292,8 @@
                                     height: 8em; 
                                     background-size: cover; 
 
-                                    -webkit-animation: run-hour 4s ease-in infinite;
-                                    animation: run-hour 4s ease-in infinite;
+                                    -webkit-animation: run-hour 5s ease-in infinite;
+                                    animation: run-hour 5s ease-in infinite;
                                     transition: all 15s ease-in-out; 
 
                                 }
@@ -342,7 +363,7 @@
                         p.list_subtitle { 
                             color: #424242d1;
                             padding: 0;
-                            margin: 5px 0 0 0;
+                            margin: 0px 0 0 0;
                         }
                     }
                 }
